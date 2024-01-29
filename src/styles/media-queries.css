@@ -53,4 +53,12 @@
     .offer__scroll-container {
         max-height: 90vh;
     }
+
+    .playlist-container .main__links {
+        display: none;
+    }
+
+    .playlist-container .copyright {
+        display: none;
+    }
 }

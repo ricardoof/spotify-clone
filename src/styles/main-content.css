@@ -1,9 +1,11 @@
 /* HEADER */
 .main-container {
     max-width: 80vw;
-    height: 100vh;
+    height: 124vh;
     margin-left: 320px;
     margin-right: 20px;
+    padding-bottom: 30px;
+    
 }
 
 .header__navigation {
@@ -108,8 +110,9 @@
 
 /* PLAYLIST */
 .playlist-container {
-    height: 71vh;
+    height: 97vh;
     padding-top: 8px;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 10px;
     background-color: #121212;
@@ -123,7 +126,7 @@
     color: #fff;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 .playlist .session {
@@ -361,3 +364,44 @@
     padding: 20px 40px;
 }
   /* FIM CARD ARTISTA */
+
+.main__links {
+    display: flex;
+    justify-content: flex-start;
+    text-transform: bold;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px;
+    padding-bottom: 25px;
+}
+
+.main__links ul li {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.main__links ul li a {
+    text-decoration: none;
+}
+
+.main__links ul li a span {
+    color: #a7a7a7;
+    font-weight: 400;
+}
+
+.companies, .communities, .Useful__links {
+    margin: 10px;
+    padding-right: 64px;
+}
+
+.horizontal__rule {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 0px 18px 24px 18px;
+}
+
+.playlist-container .copyright {
+    font-size: 14px;
+    color: #a7a7a7;
+    margin-left: 20px;
+}
