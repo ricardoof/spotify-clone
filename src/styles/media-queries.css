@@ -6,16 +6,18 @@
 }
 
 @media screen and (max-width: 450px) {
-    .sidebar, .disclaimer-premium {
+    .sidebar, 
+    .disclaimer-premium, 
+    .header__login{
         display: none;
     }
 
+    .header__navigation 
+    .navigation {
+        display: none;
+    }
     .header__search {
-        width: 240px;
-    }
-
-    .header__login {
-        display: none;
+        width: 300px;
     }
 
     .main-container {
