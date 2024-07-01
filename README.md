@@ -2,7 +2,7 @@
 Este projeto foi criado para praticar meus conhecimentos de HTML, CSS e JavaScript, e foi construido na Imersão Front-End da Alura. Ele inclui a página inicial do Spotify para desktop e responsividade para mobile.
 
 <img src="src/assets/images/spotify-desktop.png" />
-<img src="src/assets/images/spotify-mobile.png" />
+<img src="src/assets/images/spotify-mobile.png" width="200"/>
 
 ## Tecnologias utilizadas
 - HTML
